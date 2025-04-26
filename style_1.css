@@ -1,0 +1,32 @@
+p{
+background-color:black;
+color:yellow;
+}
+
+.heading{
+background-color:red;
+color:black;
+}
+
+#Welcome{
+background-color:black;
+color:red;
+font-size:30;
+border:2px solid red ;
+margin:0 0 0 0;
+}
+
+div{
+
+background-color:black;
+color:red;
+}
+/*
+a{
+text-decoration:none;
+color:#E833E4;
+}
+*/
+a:hover{
+color:#33345C;
+}

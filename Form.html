@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+
+<form action="Images/nothing.png" method="get">          <!--"get" is default and "post" is safe-->      
+<table>
+<tbody algin="center">
+
+<tr>
+<td> Name </td>
+<td> <input type="text" name="name" placeholder="Plz enter your name"> </td>
+</tr>
+
+<tr>
+<td> Gender </td>
+<td> <input type="radio" name="gender" value="male"> Male
+ <input type="radio" name="gender" value="female"> Female </td> 
+</tr>
+
+<tr>
+<td> Age </td>
+<td> <input type="number" name="age" placeholder="Age b/w 18-40" min="18" max="40"> (18-40yrs)</td>
+</tr>
+
+<tr>
+<td> Date of Birth </td>
+<td> <input type="date" name="dob"> </td>
+</tr>
+
+<tr>
+<td> Subject </td>
+<td> <select name="subject" multiple> 
+	<option>Science</option>
+	<option>Maths</option>
+	<option>English</option>
+     </select>
+</td>
+</tr>
+
+<tr>
+<td> City </td>
+<td> <input type="select" name="city" placeholder="Your city"> </td>
+</tr>
+
+<tr>
+<td> Address </td>
+<td> <textarea rows="5"></textarea> </td>
+</tr>
+
+<tr>
+<td> Email Id </td>
+<td> <input type="email" name="email" placeholder="Your email id"> </td>
+</tr>
+
+<tr>
+<td> Password </td>
+<td> <input required type="password" name="password" placeholder="Your Password"> </td>
+</tr>
+
+<tr align="right">
+<td> <input type="Submit" value="Submit">
+<td> <input type="Reset" value="Clear">
+</tr>
+
+</table>
+</form>
+</body>
+</html>
